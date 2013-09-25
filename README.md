@@ -1,4 +1,4 @@
-# A Emmet Story
+# An Emmet Story
 
 In a word where HTML is a martial art, you are a kid with a special gift, you can use Emmet the power of speed coding. 
 
