@@ -5,37 +5,41 @@
     <title>A Emmet Story</title>
     <link rel="stylesheet" href="css/app.css"/>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/codemirror/codemirror.css"/>
 
 </head>
 <body>
-<header class="center">
+<header>
     <h1>A Emmet Story</h1>
 </header>
 
-
-<ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-</ul>
-
-<div ng-view></div>
+<div class="container">
+    <div ng-view></div>
 
 
-<!-- In production use:
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
--->
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    -->
+    <hr>
+    <footer>
+        <p>CuoppoFritto 2013 - A Emmet Story: v<span app-version></span></p>
+    </footer>
+</div>
 
-<footer>
-    <div>Angular seed app: v<span app-version></span></div>
-</footer>
-
-
+<script src="lib/angular/angular.js"></script>
+<script src="lib/codemirror/codemirror.js"></script>
+<script src="lib/codemirror/css.js"></script>
+<script src="lib/codemirror/xml.js"></script>
+<script src="lib/codemirror/javascript.js"></script>
+<script src="lib/codemirror/htmlmixed.js"></script>
 <script src="lib/angular/angular.js"></script>
 <script src="js/app.js"></script>
 <script src="js/services.js"></script>
 <script src="js/controllers.js"></script>
 <script src="js/filters.js"></script>
 <script src="js/directives.js"></script>
-<script src="js/ui-bootstrap-custom-tpls-0.6.0.min.js"></script>
+<script src="lib/ui-bootstrap-custom-tpls-0.6.0.min.js"></script>
+<script src="lib/codemirror/ui-codemirror.js"></script>
 </body>
 </html>
+

@@ -1,5 +1,15 @@
-<h2>Long time ago...</h2>
-<p>
-    So you are ready to start,
-    {{ 'So you are ready to start, we are not, this is just version v%VERSION%.' | interpolate }}
-</p>
+<div class="hero-unit">
+    <h2>Long time ago...</h2>
+
+    <p>
+        In un piccolo villaggio sui monti c'era una scuola di HTML. Tra i bambini che studiavano in questa scuola ce
+        n'era uno particolarmente vivace a cui tutto piaceva tranne che studiare.
+
+        {{ ' we are not, this is just version v%VERSION%.' | interpolate }}
+    </p>
+</div>
+
+
+<div>
+    <textarea ui-codemirror="{ lineNumbers: true, tabMode: 'indent', mode: 'htmlmixed'}" ng-model="yourCode"></textarea>
+</div>
